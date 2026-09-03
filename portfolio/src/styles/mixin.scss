@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+@mixin space-between {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @mixin respond-to($breakpoint) {
   @media (min-width: $breakpoint) {
     @content;
