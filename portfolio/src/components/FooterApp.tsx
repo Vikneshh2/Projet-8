@@ -5,7 +5,6 @@ function FooterApp() {
   return (
     <footer>
       <div id="footer">
-        <img src={FooterLogo} id="logo-footer" />
         <p></p>
       </div>
     </footer>
