@@ -1,8 +1,12 @@
 import Navbar from "../components/Navbar";
 import FooterApp from "../components/FooterApp";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 import "../App.scss";
 import "../styles/Home.scss";
-import ProfilePic from "../assets/Profile-PNG-File.png";
+import ProfilePic from "../assets/Profilepic(2).png";
 import CV from "../assets/Sadish Viknesh CV Développeur Web.pdf";
 import LinkedinLogo from "../assets/linkedin-logo-black-transparent.png";
 import GitHubLogo from "../assets/logo-github.png";
@@ -42,11 +46,15 @@ function Home() {
                 src={GitHubLogo}
                 alt="Logo de Github"
                 className="icons"
-                onClick={() => (location.href = "https://github.com")}
+                onClick={() => (location.href = "https://github.com/Vikneshh2")}
               />
             </div>
           </div>
         </section>
+        <About image={ProfilePic}></About>
+        <Skills></Skills>
+        <Projects></Projects>
+        <Contact></Contact>
       </main>
       <FooterApp></FooterApp>
     </div>

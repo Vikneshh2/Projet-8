@@ -1,0 +1,84 @@
+@use "./mixin.scss" as m;
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+
+  &__header {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    p {
+      font-size: 1rem;
+      color: #6b7280;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin: 0.25rem 0 0 0;
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 100%;
+    max-width: 1100px;
+
+    @include m.mobile {
+      flex-direction: column;
+    }
+  }
+
+  &__card {
+    flex: 1;
+    padding: 2rem;
+    border: 1px solid #000000;
+    border-radius: 2rem;
+    background-color: #ffffff;
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #374151;
+      margin: 0 0 2rem 0;
+      text-align: center;
+    }
+  }
+
+  // Grille fluide automatique
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 2rem 1.5rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    p {
+      font-size: 0.85rem;
+      color: #6b7280;
+      margin: 0.25rem 0 0 0;
+    }
+  }
+
+  &__icon {
+    font-size: 1.25rem;
+    margin-top: 0.1rem;
+    flex-shrink: 0;
+  }
+}

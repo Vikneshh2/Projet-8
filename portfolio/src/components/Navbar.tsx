@@ -1,49 +1,3 @@
-// import "../styles/Navbar.scss";
-// import { NavLink } from "react-router-dom";
-// import { useState } from "react";
-
-// export const Navbar = () => {
-//   const [isOpen, setIsOpen] = useState(false);
-// };
-// function Navbar() {
-//   return (
-//     <header className="navbar">
-//       <div id="logo">Viknesh Sadish</div>
-//       <div id="navbar">
-//         <ul>
-//           <NavLink to="/" end>
-//             <li id="accueil">
-//               <a href="présentation">Présentation</a>
-//             </li>
-//           </NavLink>
-//           <NavLink to="/propos">
-//             <li id="propos">
-//               <a href="compétences">Compétences</a>
-//             </li>
-//           </NavLink>
-//           <NavLink to="/propos">
-//             <li id="propos">
-//               <a href="propos">A propos</a>
-//             </li>
-//           </NavLink>
-//           <NavLink to="/propos">
-//             <li id="propos">
-//               <a href="projets">Projets</a>
-//             </li>
-//           </NavLink>
-//           <NavLink to="/propos">
-//             <li id="propos">
-//               <a href="contact">Contact</a>
-//             </li>
-//           </NavLink>
-//         </ul>
-//       </div>
-//     </header>
-//   );
-// }
-
-// export default Navbar;
-
 import { useState } from "react";
 import "../styles/Navbar.scss";
 
@@ -61,7 +15,7 @@ export const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar__logo">
-        <a href="#hero" onClick={closeMenu}>
+        <a href="#" onClick={closeMenu}>
           Viknesh Sadish
         </a>
       </div>
@@ -78,18 +32,13 @@ export const Navbar = () => {
       <nav className={`navbar__menu ${isOpen ? "is-open" : ""}`}>
         <ul>
           <li>
-            <a href="#hero" onClick={closeMenu}>
+            <a href="#about" onClick={closeMenu}>
               Présentation
             </a>
           </li>
           <li>
-            <a href="#skills" onClick={closeMenu}>
+            <a href="#experience" onClick={closeMenu}>
               Compétences
-            </a>
-          </li>
-          <li>
-            <a href="#about" onClick={closeMenu}>
-              À propos
             </a>
           </li>
           <li>
