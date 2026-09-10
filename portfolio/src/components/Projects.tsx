@@ -1,4 +1,3 @@
-// import { FaAngleDown } from "react-icons/fa";
 import project1Img from "../assets/Homepage.png";
 import project2Img from "../assets/D_Fiche-Logement.png";
 import project3Img from "../assets/Accueil.png";

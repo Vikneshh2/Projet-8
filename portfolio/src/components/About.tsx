@@ -1,10 +1,5 @@
 import "../styles/About.scss";
-import {
-  FaAngleDoubleDown,
-  FaAngleDown,
-  FaBook,
-  FaAward,
-} from "react-icons/fa";
+import { FaBook, FaAward } from "react-icons/fa";
 
 interface AboutProps {
   image: string;
