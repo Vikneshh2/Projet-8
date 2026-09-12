@@ -40,7 +40,10 @@ function Home() {
                 src={LinkedinLogo}
                 alt="Logo de Linkedin"
                 className="icons"
-                onClick={() => (location.href = "https://linkedin.com")}
+                onClick={() =>
+                  (location.href =
+                    "https://www.linkedin.com/in/viknesh-sadish-8533831b4/")
+                }
               />
               <img
                 src={GitHubLogo}

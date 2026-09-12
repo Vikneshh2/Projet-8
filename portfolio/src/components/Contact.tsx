@@ -12,7 +12,7 @@ export const Contact = () => {
     {
       id: 2,
       label: "LinkedIn",
-      href: "https://www.linkedin.com",
+      href: "https://www.linkedin.com/in/viknesh-sadish-8533831b4/",
       icon: <FaLinkedin className="contact__icon" />,
     },
   ];

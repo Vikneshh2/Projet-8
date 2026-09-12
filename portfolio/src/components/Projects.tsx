@@ -18,7 +18,7 @@ export const Projects = () => {
       title: "Sophie Bluel",
       image: project1Img,
       githubUrl: "https://github.com/Vikneshh2/Projet-3",
-      demoUrl: "https://github.com/",
+      demoUrl: "https://projet-3-unjn.vercel.app/index.html",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ export const Projects = () => {
     },
     {
       id: 3,
-      title: "Project Three",
+      title: "Mon Vieux Grimoire",
       image: project3Img,
       githubUrl: "https://github.com/Vikneshh2/Projet-6",
       demoUrl: "https://github.com/",
